@@ -220,7 +220,7 @@ The output qualifier declares the type of data received.
 The `<output name>` can be a literal value, a file glob pattern, a
 variable in the process scope, or an input variable. A process task
 will always emit just one value into the output channel. When a file
-glob pattern is used, a List of files is emitted rather than
+glob pattern is used, a list of files is emitted rather than
 a single file object. Input files are by default not included
 in the list of matched files.
 
